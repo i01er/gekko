@@ -12,7 +12,7 @@ let getOrderMinSize = currency => {
 };
 
 const options = {
-  url: 'https://www.binance.com/exchange/public/product',
+  url: 'https://www.binance.com/api/v1/exchangeInfo',
   headers: {
     Connection: 'keep-alive',
     'User-Agent': 'Request-Promise',

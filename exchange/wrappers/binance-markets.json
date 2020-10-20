@@ -149,7 +149,8 @@
     "YOYO",
     "ZEC",
     "ZEN",
-    "ZIL"
+    "ZIL",
+    "COMP"
   ],
   "currencies": [
     "BNB",
@@ -4588,6 +4589,17 @@
       "pair": [
         "USDT",
         "ETH"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.01,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "COMP"
       ],
       "minimalOrder": {
         "amount": 0.00001,
